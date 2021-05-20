@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1621499419 source:p:\qco\block.cpp
+	"block.h"
+	<iostream>
+
+1621498961 p:\qco\block.h
+	<json/json.h>
+
+1621503722 source:p:\qco\blockchain.cpp
+	"blockChain.h"
+	"mineAlgo.h"
+	<memory>
+	<botan/hash.h>
+	<botan/base58.h>
+	<botan/secmem.h>
+	<iostream>
+
+1621503728 p:\qco\blockchain.h
+	"block.h"
+	"mineAlgo.h"
+	<vector>
+
+1621503564 p:\qco\minealgo.h
+	"block.h"
+	<memory>
+	<string>
+	<bitset>
+
+1621503848 source:p:\qco\minealgo.cpp
+	"mineAlgo.h"
+	"block.h"
+	<memory>
+	<iostream>
+	<string>
+	<botan/hash.h>
+	<botan/base58.h>
+	<botan/hex.h>
+	<botan/rng.h>
+	<botan/auto_rng.h>
+	<chrono>
+	<bitset>
+
+1621503667 source:p:\qco\main.cpp
+	<iostream>
+	<memory>
+	"blockChain.h"
+	<json/json.h>
+	<chrono>
+
+1621373017 source:p:\qco\src\main.cpp
+	<iostream>
+
